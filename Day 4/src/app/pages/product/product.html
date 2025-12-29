@@ -1,0 +1,27 @@
+<div class="row px-4 py-3">
+  @for (item of products; track item.id) {
+    <div class="col-md-3 col-sm-6 mb-4 d-flex">
+      <div class="card w-100 shadow-sm" style="border-radius: 12px; padding: 10px;">
+        
+        <img 
+          [src]="item.image" 
+          class="card-img-top mb-2"
+          style="height:200px; object-fit: contain; padding: 10px;"
+        >
+
+        <div class="card-body text-center p-2">
+          <h5 class="card-title mb-2">{{ item.title }}</h5>
+          <p class="card-text mb-3">{{ item.price }}</p>
+
+          <a 
+            [routerLink]="['/singleview-list', item.id]" 
+            class="btn btn-primary px-4 py-1"
+          >
+            Goto
+          </a>
+        </div>
+
+      </div>
+    </div>
+  }
+</div>
