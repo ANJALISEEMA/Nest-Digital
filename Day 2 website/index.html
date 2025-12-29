@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <style>
+  .footer {
+    background-color: #6b2242;
+    color: #ffffff;
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-title {
+    color: #ff9f1c;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-list li,
+  .footer-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .footer-list li a:hover {
+    color: #ff9f1c;
+  }
+
+  .footer-heading span {
+    color: #ff9f1c;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .footer-form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    margin-bottom: 15px;
+    padding: 6px;
+  }
+
+  .footer-form input::placeholder {
+    color: #ccc;
+  }
+
+  .footer-form button {
+    background: none;
+    border: none;
+    color: #ff9f1c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .contact-box {
+    margin-top: 30px;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    background: #f4a340;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .contact-btn:hover {
+    background: #ff9f1c;
+  }
+</style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid my-5">
+    <a class="navbar-brand" href="#"></a>
+    <img src="https://nestdigital.com/wp-content/uploads/2023/04/Group-82.png">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="careers.html">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_us.html"></a>
+        </li>
+      </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <!-- Contact Us Button -->
+         
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+  Contact Us
+</button>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<div id="carouselExampleInterval" class="carousel slide my-5 py-3 px-2" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://nestdigital.com/wp-content/uploads/2023/07/Rectangle-162.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://nestdigital.com/wp-content/uploads/2023/07/Rectangle-153.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://media-exp1.licdn.com/dms/image/C5605AQHIq5m4DvzvFQ/feedshare-thumbnail_720_1280/0/1631103959730?e=2147483647&v=beta&t=CHVhGzmmq5jvcdt8Adt6bVb1pJD-whQQ5b_aYpum0oY" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container mt-5">
+  <h1 class="mb-4">About Us</h1>
+  <p>
+   Nest Digital is a global digital transformation and engineering solutions company committed to enabling organizations to thrive in an increasingly digital world. With a strong foundation in innovation, technology excellence, and domain expertise, we design and deliver intelligent solutions that address complex business challenges across industries.
+  </p>
+</div>
+
+<!-- INDUSTRIES SECTION -->
+<div class="container-fluid my-5">
+
+  <!-- Heading -->
+  <h2 class="text-center mb-4">Industries</h2>
+
+  <!-- Carousel -->
+  <div id="carouselExampleInterval" class="carousel slide my-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://wallpapers.com/images/hd/aerospace-background-5h142boqd0war6y5.jpg"
+             class="d-block w-100" alt="Aerospace">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Aerospace</h5>
+          <p>Advanced digital solutions for the aerospace industry.</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.9UGzbaEGTxwwOqH-ggE02wHaEJ?pid=Api&P=0&h=220"
+             class="d-block w-100" alt="Healthcare">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Healthcare</h5>
+          <p>Technology-driven solutions for modern healthcare systems.</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="https://wallpaperaccess.com/full/624111.jpg"
+             class="d-block w-100" alt="Banking">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Banking & Finance</h5>
+          <p>Secure and scalable digital banking solutions.</p>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.APE1H41VRX6rL0ZRO57HmwHaE7?pid=Api&P=0&h=220"
+             class="d-block w-100" alt="Energy">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Insurance</h5>
+          <p>Innovative digital platforms for the energy sector.</p>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <img src="https://www.trains.com/wp-content/uploads/2024/11/TRN_Metro_North_Chargers_1.jpg"
+             class="d-block w-100" alt="Transportation">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Transportation</h5>
+          <p>Smart mobility and transportation technology solutions.</p>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="carousel-item">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.TtCVHwNed1GPsECFDSPPvAHaDt?pid=Api&P=0&h=220"
+             class="d-block w-100" alt="Manufacturing">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Manufacturing</h5>
+          <p>Industry 4.0 solutions for smart manufacturing.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</div>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5 class="footer-title">Quick Links</h5>
+        <ul class="footer-list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3">
+        <h5 class="footer-title">Services</h5>
+        <ul class="footer-list">
+          <li>Cloud Services</li>
+          <li>Cyber Security</li>
+          <li>Data Engineering</li>
+          <li>DevOps</li>
+          <li>GIS</li>
+        </ul>
+      </div>
+
+      <!-- Subscribe & Contact -->
+      <div class="col-md-3">
+        <h3 class="footer-heading">Get updates on our <span>Insights</span></h3>
+        <p class="footer-text">
+          Stay connected with NeST Digital to get timely updates of our thought
+          leadership posts by filling the below details.
+        </p>
+
+        <div class="contact-box">
+          <h3>Get in touch with us</h3>
+          <a href="contact_us.html" class="contact-btn">CONTACT US</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Contact Us Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Contact NeST Digital</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+
+            <!-- LEFT SIDE : FAQ -->
+            <div class="col-md-9">
+              <h4>Frequently Asked Questions</h4>
+
+              <div class="accordion" id="faqAccordion">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                      What services does NeST Digital provide?
+                    </button>
+                  </h2>
+                  <div id="faq1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      NeST Digital provides digital transformation, cloud services,
+                      engineering solutions, and IT consulting.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                      How can I collaborate with NeST Digital?
+                    </button>
+                  </h2>
+                  <div id="faq2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      You can collaborate by contacting us through this form or
+                      reaching out via our official website.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                      Where is NeST Digital located?
+                    </button>
+                  </h2>
+                  <div id="faq3" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      NeST Digital has a global presence with headquarters in India.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- RIGHT SIDE : CONTACT -->
+          
+<div class="col-md-3">
+  <div style="
+    background-color:#223a70;
+    padding:20px;
+    color:#ffffff;
+    height:100%;
+  ">
+
+    <p class="mb-3" style="font-size:14px;">
+      Stay connected with NeST Digital by filling the below details
+    </p>
+
+    <form>
+      <!-- Name -->
+      <div class="mb-3">
+        <label style="font-size:14px; color:#cfd8ff;">Name</label>
+        <input type="text" style="
+          width:100%;
+          background:transparent;
+          border:none;
+          border-bottom:2px solid #cfd8ff;
+          color:white;
+          outline:none;
+        ">
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label style="font-size:14px; color:#cfd8ff;">Email</label>
+        <input type="email" style="
+          width:100%;
+          background:transparent;
+          border:none;
+          border-bottom:2px solid #cfd8ff;
+          color:white;
+          outline:none;
+        ">
+      </div>
+
+      <!-- Send Button -->
+      <div class="text-end">
+        <button type="submit" style="
+          background:none;
+          border:none;
+          color:#ff9f1c;
+          font-weight:600;
+          letter-spacing:2px;
+        ">
+          SEND
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

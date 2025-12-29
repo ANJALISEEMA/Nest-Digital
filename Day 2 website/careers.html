@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+  .hero-section {
+    background-color: #6b2238;
+    color: #ffffff;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .hero-content p {
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+
+  .hero-btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-btn:hover {
+    background-color: #f2f2f2;
+  }
+
+  .hero-image {
+    position: relative;
+  }
+
+  .hero-image::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    background: #6b2240;
+    transform: skewX(-15deg);
+    z-index: 1;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+</style>
+
+
+<style>
+  .footer {
+    background-color: #6b2242;
+    color: #ffffff;
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-title {
+    color: #ff9f1c;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-list li,
+  .footer-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .footer-list li a:hover {
+    color: #ff9f1c;
+  }
+
+  .footer-heading span {
+    color: #ff9f1c;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .footer-form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    margin-bottom: 15px;
+    padding: 6px;
+  }
+
+  .footer-form input::placeholder {
+    color: #ccc;
+  }
+
+  .footer-form button {
+    background: none;
+    border: none;
+    color: #ff9f1c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .contact-box {
+    margin-top: 30px;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    background: #f4a340;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .contact-btn:hover {
+    background: #ff9f1c;
+  }
+</style>
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <img src="https://nestdigital.com/wp-content/uploads/2023/04/Group-82.png">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="careers.html">Careers</a>
+        </li>
+      </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <!-- Contact Us Button -->
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+  Contact Us
+</button>
+
+      </div>
+    </div>
+  </div>
+</nav>
+  
+    <section class="hero-section">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-md-6 hero-content ps-md-5">
+        <h1>Give Wings to your dreams at NeST Digital!</h1>
+        <p>WE BELIEVE IN YOUR IDEAS, WE BELIEVE IN YOU</p>
+        <a href="explore.html" class="hero-btn">
+          EXPLORE NOW <span>&#8594;</span>
+        </a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-md-6 hero-image p-0">
+        <img src="https://cdn.shopify.com/s/files/1/0512/0593/1170/files/Careers-1_2048x2048.png?v=1702467027"
+             alt="Team discussion">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5 class="footer-title">Quick Links</h5>
+        <ul class="footer-list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3">
+        <h5 class="footer-title">Services</h5>
+        <ul class="footer-list">
+          <li>Cloud Services</li>
+          <li>Cyber Security</li>
+          <li>Data Engineering</li>
+          <li>DevOps</li>
+          <li>GIS</li>
+        </ul>
+      </div>
+
+      <!-- Subscribe & Contact -->
+       <div class="mb-3">
+    <p class="mb-1">
+      <strong>Email:</strong>
+      <a href="mailto:info@nestdigital.com">info@nestdigital.com</a>
+    </p>
+    <p class="mb-1">
+      <strong>Phone:</strong>
+      <a href="tel:+914712345678">+91 471 234 5678</a>
+    </p>
+  </div>
+
+  <!-- Contact Box -->
+  <div class="contact-box">
+    <h3>Get in touch with us</h3>
+    <a href="contact_us.html" class="contact-btn">CONTACT US</a>
+  </div>
+</div>
+    </div>
+  </div>
+</footer>
+
+</body>    
